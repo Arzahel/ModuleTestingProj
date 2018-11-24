@@ -51,9 +51,15 @@ namespace MTestFramework
         [Description("Checks hyperbolic cosinus radius in range -5..5")]
         public void CoshRangeCheck([Range(-5, 5, 0.1)] double d)
         {
-            try { d = Math.Cosh(d); }
-            catch (Exception e) { Console.WriteLine(e); }
-            finally { };
+            Assert.That(Math.Cosh(d), Is.GreaterThan(0));
+        }
+
+        [Test]
+        [Description("Checks hyperbolic sinus radius in range -5..5")]
+        public void SinhRangeCheck([Range(-4, 4, 0.1)] double d)
+        {
+            if (d <= 0) Assert.That(Math.Sinh(d), Is.LessThanOrEqualTo(0));
+            else Assert.That(Math.Sinh(d), Is.GreaterThan(0));
         }
 
         [Test]
