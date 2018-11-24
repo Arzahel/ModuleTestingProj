@@ -1,0 +1,3 @@
+C:\Users\Habito\source\repos\MTestFramework\MTestFramework\bin\Debug\MTestFramework.dll
+--test WeightStateChecker
+--test LongModulus

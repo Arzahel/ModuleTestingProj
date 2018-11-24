@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MTestFramework/obj/Debug
+/.vs/MTestFramework/v15/Server/sqlite3
+/MTestFramework/bin/Debug
+/MTestFramework/Properties
+/packages

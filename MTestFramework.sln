@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTestFramework", "MTestFramework\MTestFramework.csproj", "{69B68D6D-007B-42DA-83A6-99E45FE5B6C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E38AE3C2-2DCA-4322-B9A4-FFDC9A5A3568}"
+	ProjectSection(SolutionItems) = preProject
+		CommandLine.txt = CommandLine.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B68D6D-007B-42DA-83A6-99E45FE5B6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B68D6D-007B-42DA-83A6-99E45FE5B6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B68D6D-007B-42DA-83A6-99E45FE5B6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B68D6D-007B-42DA-83A6-99E45FE5B6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BCBB8CB-C13B-4E53-81DD-66C29E78A0AB}
+	EndGlobalSection
+EndGlobal
